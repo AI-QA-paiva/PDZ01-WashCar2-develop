@@ -20,7 +20,7 @@ public class VehicleController {
         return carroModel;
     }
 
-    //persistindo no banco Postgres SQL
+    //Abaixo, metodos que o dado fica persistindo no banco Postgres SQL
 
     @Autowired
     private VehicleService vehicleService;

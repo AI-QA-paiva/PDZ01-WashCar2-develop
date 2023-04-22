@@ -37,10 +37,14 @@ public class VehicleModel {
         return idCarro;
     }
 
-    //Postman nao precisa ter o Set de idCarro ativo; na resposta precisa que o getIcarro esteja ativo para mostrar sequnciamento do Id
+    //O idcarro é a primaryKey, e o Set de idCarro criado automaticamente pelo comando Alt+insert como ativo não é necessário;
+    //o idCarro é gerado automaticamente pelo proprio Spring, assim, não deve poder ser setado;
+    // Apenas pode se consultar e basta que o método getIcarro esteja ativo, assim mostrará os dados
+
 //    public void setIdCarro(){
 //        this.idCarro = idCarro;
 //    }
+
     public String getMarca() {
         return marca;
     }

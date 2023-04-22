@@ -31,6 +31,8 @@ public class VehicleDto {
         placa = vehicleModel.getPlaca();
     }
 
+
+    //Metodos de Get e Set, para acessar as variaveis de instancia da classe
     public String getMarca() {
         return marca;
     }

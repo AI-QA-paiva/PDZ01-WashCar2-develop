@@ -34,6 +34,10 @@ public class AddressModel {
         this.email = email;
     }
 
+    public AddressModel(){
+
+    }
+
 
 
 
